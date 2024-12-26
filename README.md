@@ -17,6 +17,9 @@ This project is a very minimal starter that includes 2 sample components, a glob
 - [Testing](#testing)
   - [Included Default Testing](#included-default-testing)
   - [Removing Renovate](#removing-renovate)
+- [Project Structure](#project-structure)
+  - [Private Folder](#private-folder)
+  - [Robots.txt](#robotstxt)
 
 ## Getting Started
 
@@ -61,3 +64,11 @@ If your team is not interested in this tooling, you can remove them with ease!
 ### Removing Renovate
 
 In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
+
+## Project Structure
+
+### Private Folder
+The `private` directory is reserved for sensitive or non-public project files that should not be exposed.
+
+### Robots.txt
+A `robots.txt` file has been added to control web crawler access to the site. Currently, it disallows all crawlers from accessing the entire site. Modify this file as needed to adjust crawler permissions.

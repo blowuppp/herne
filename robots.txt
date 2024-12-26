@@ -1,0 +1,8 @@
+# Robots.txt file for website
+
+# Disallow all crawlers from accessing the entire site
+User-agent: *
+Disallow: /
+
+# If you want to allow specific crawlers or paths in the future, 
+# you can modify this file accordingly
